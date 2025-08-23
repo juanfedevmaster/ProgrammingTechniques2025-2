@@ -10,11 +10,13 @@ package com.juanfedevmaster.holamundoproyecto;
 public class HolaMundoProyecto {
 
     public static void main(String[] args) {
-        String a = "200";
-        double b = Double.parseDouble(a);
-        
-        int c = (int) b;
-        
-        
+       int a = 100;
+       int b = 200;
+       
+        System.out.println(SumaDosNumeros(a, b));
+    }
+    
+    public static int SumaDosNumeros(int a, int b){
+        return a + b;
     }
 }
