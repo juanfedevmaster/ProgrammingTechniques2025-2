@@ -1,0 +1,27 @@
+1. Comando para crear proyecto con Maven
+mvn archetype:generate -DgroupId=com.task.manager -DartifactId=TaskManager -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+2. Compilar un codigo Java:
+
+General
+javac Hola.java   # compila
+java Hola         # ejecuta
+
+Maven Project
+mvn clean compile   # compila el proyecto
+mvn exec:java "-Dexec.mainClass=com.task.manager.App"  # ejecuta la clase principal
+
+Recuerda que hay hay que tener el:
+
+<build>
+	<plugins>
+	  <plugin>
+		<groupId>org.codehaus.mojo</groupId>
+		<artifactId>exec-maven-plugin</artifactId>
+		<version>3.5.0</version>
+		<configuration>
+		  <mainClass>com.task.manager.App</mainClass>
+		</configuration>
+	  </plugin>
+	</plugins>
+</build>

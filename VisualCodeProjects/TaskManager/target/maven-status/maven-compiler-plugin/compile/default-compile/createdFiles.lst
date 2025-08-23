@@ -1,0 +1,4 @@
+com\task\manager\service\TaskManager.class
+com\task\manager\App.class
+com\task\manager\model\Task.class
+com\task\manager\ui\ConsoleMenu.class
