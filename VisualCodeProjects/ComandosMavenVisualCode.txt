@@ -25,8 +25,3 @@ Recuerda que hay hay que tener el:
 	  </plugin>
 	</plugins>
 </build>
-
-
-SKec99a357a640f832cb4939a7d87ffe3e
-
-h0K5kkKgueKFOExQ6xdRW8toNMMrDlWk
