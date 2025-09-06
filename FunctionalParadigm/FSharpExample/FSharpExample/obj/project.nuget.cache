@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7uIOP6mW3sA=",
+  "success": true,
+  "projectFilePath": "D:\\GIT_JuanFeDevMaster\\ProgrammingTechniques2025-2\\FunctionalParadigm\\FSharpExample\\FSharpExample\\FSharpExample.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jufeq\\.nuget\\packages\\fsharp.core\\9.0.100\\fsharp.core.9.0.100.nupkg.sha512"
+  ],
+  "logs": []
+}
