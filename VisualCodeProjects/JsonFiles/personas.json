@@ -1,0 +1,42 @@
+[
+  {
+    "nombre": "Juan Felipe",
+    "apellido": "Quintana",
+    "edad": 39,
+    "email": "juan.quintanag@udea.edu.co",
+    "telefono": "3001112233",
+    "direccion": "Calle 45 sur #14-78",
+    "altura": 185.0,
+    "activo": true
+  },
+  {
+    "nombre": "Laura Melissa",
+    "apellido": "Quintana",
+    "edad": 39,
+    "email": "lau.quintanag@udea.edu.co",
+    "telefono": "3001112234",
+    "direccion": "Calle 45 sur #14-78",
+    "altura": 180.0,
+    "activo": true
+  },
+  {
+    "nombre": "Jhon",
+    "apellido": "Doe",
+    "edad": 41,
+    "email": "jhon.doe@udea.edu.co",
+    "telefono": "0000000000",
+    "direccion": "Calle 45 sur #14-78",
+    "altura": 185.0,
+    "activo": true
+  },
+  {
+    "nombre": "Jane",
+    "apellido": "Doe",
+    "edad": 30,
+    "email": "jane.doe@udea.edu.co",
+    "telefono": "0000000000",
+    "direccion": "Calle 45 sur #14-78",
+    "altura": 185.0,
+    "activo": true
+  }
+]
