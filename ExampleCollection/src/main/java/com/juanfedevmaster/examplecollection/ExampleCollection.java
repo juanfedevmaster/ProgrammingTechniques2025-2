@@ -19,7 +19,7 @@ public class ExampleCollection {
 
     public static void main(String[] args) {
         List<Product> products = new ArrayList<>();
-
+        
         products.add(new Product(1, "Laptop Lenovo IdeaPad 5", 3200.00));
         products.add(new Product(2, "Mouse Logitech M510", 85.50));
         products.add(new Product(3, "Teclado Mecánico Redragon Kumara", 190.00));
