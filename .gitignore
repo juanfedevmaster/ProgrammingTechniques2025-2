@@ -31,3 +31,5 @@ replay_pid*
 /LoginJavaSwing/target/
 /AbarroMaxApp/target/
 /ExampleCollection/target/
+/AdapterPatternExample/nbproject/private/
+/AdapterPatternExample/build/
