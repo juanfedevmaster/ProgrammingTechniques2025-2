@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Juan Felipe",
+    "email": "juan.quintanag@udea.edu.co",
+    "age": 40
+  },
+  {
+    "id": 2,
+    "name": "Camilo Andres",
+    "email": "camilo.rodriguez@udea.edu.co",
+    "age": 35
+  },
+  {
+    "id": 2,
+    "name": "Camilo Andres",
+    "email": "camilo.rodriguez@udea.edu.co",
+    "age": 35
+  },
+  {
+    "id": 2,
+    "name": "Camilo Andres",
+    "email": "camilo.rodriguez@udea.edu.co",
+    "age": 35
+  }
+]
