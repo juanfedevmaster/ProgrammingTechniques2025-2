@@ -4,6 +4,8 @@
  */
 package com.juanfedevmaster.webappholamundo;
 
+import com.juanfedevmaster.webappholamundo.modelos.Login;
+import com.juanfedevmaster.webappholamundo.persistencia.LoginRepositorio;
 import java.io.IOException;
 import java.io.PrintWriter;
 import jakarta.servlet.ServletException;
@@ -32,10 +34,13 @@ public class SvLogin extends HttpServlet {
 
         String email = request.getParameter("exampleInputEmail1");
         String password = request.getParameter("exampleInputPassword1");
-
+        
+        LoginRepositorio repository = new LoginRepositorio();
+        Login loginUser = repository.getUsuario(email);
+        
         String message = "";
 
-        if (email.trim().equalsIgnoreCase("juan.quintanag@udea.edu.co") && password.trim().equals("admin123")) {
+        if (email.trim().equalsIgnoreCase(loginUser.getEmail()) && password.trim().equals(loginUser.getPassword())) {
             message = "The user and password are correct. Welcome Home!";
         } else {
             message = "The user and password are incorrect. Try again!";

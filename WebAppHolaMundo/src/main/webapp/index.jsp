@@ -1,3 +1,10 @@
+<%-- 
+    Document   : index
+    Created on : 19/11/2025, 6:38:04 p. m.
+    Author     : jufeq
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -10,7 +17,6 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-3">
-
                 </div>
                 <div class="col-6" style="margin-top: 150px">
                     <div class="card shadow p-3 mb-5 bg-white rounded">
